@@ -1,0 +1,389 @@
+@font-face {
+  font-family: pemex;
+  src: url(media/praetorianexpand.ttf);
+}
+
+body{
+
+	background: white(98,125,77,1);
+}
+
+#logo{
+	width: 12%;
+	border: 1px solid black;
+	border-radius: 5px;
+
+}
+#loguito{
+	width: 12%;
+	border: 1px solid black;
+	border-radius: 5px;
+	float:right;	
+}
+
+nav li{
+	
+	border:none;
+}
+
+ 
+.c1{
+	width: 35%;
+	border-radius: 5px;
+	border:none;
+}
+
+#c2{
+	width: 35%;
+	border-radius: 5px;
+}
+
+ul, ol {
+				list-style:none;
+				
+				
+			}
+			
+			.nav li {
+		    	display: inline-block;
+		    	width: 14%;												
+		    	text-align: center;
+
+		    }
+			
+			.nav li a {
+				background-color:#007437;
+				color:white;
+				text-decoration:none;
+				padding:10px 12px;				
+				border-radius: 5px;				
+				display:block;	
+				font-size: 16px;
+				font-family: pemex;
+				text-shadow:
+				   -1px -1px 0 #000,  
+				    1px -1px 0 #000,
+				    -1px 1px 0 #000,
+				    1px 1px 0 #000;
+				letter-spacing: 1px;	
+				transition: box-shadow .3s linear;
+				position: relative;
+				z-index: 99999;
+
+			}
+			
+			.nav li a:hover {
+				background-color:#007025;
+				-webkit-box-shadow: inset 8px 5px 50px -11px #000000; 
+				box-shadow: inset 8px 5px 50px -11px #000000;
+
+				
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;	
+				width: 10%!important;			
+				
+
+			}
+			
+			.nav li:hover > ul {
+				display:block;				
+				
+			}
+			
+			.nav li ul li {
+				position:relative;
+
+				width: 100%;	
+
+
+			}
+			
+			.nav li ul li ul {
+				right:-140px;			
+				width: 14%;
+				top:0px;
+				
+			}		
+h1{
+	display: inline;
+	position: absolute;
+	margin-left:15%;
+	font-family: 'pemex';
+	color: white; 
+    font-style: 10px;
+    text-shadow: 1px 1px black, 
+                2px 2px black, 
+                3px 3px black; 
+    
+    padding: 15px;
+    border-radius:10px;
+    -webkit-box-shadow: inset 8px 5px 50px -11px #000000; 
+	box-shadow: inset 8px 5px 50px -11px #000000;
+}
+
+header{
+	background-color: green;
+	padding: 5px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 10px 10px 132px 4px rgba(0,0,0,0.64);
+	-moz-box-shadow: inset 10px 10px 132px 4px rgba(0,0,0,0.64);
+	box-shadow: inset 10px 10px 132px 4px rgba(0,0,0,0.64);
+}
+/*
+nav{
+	text-decoration: none!important;
+	display: inline;
+	font-size: 20px;
+	font-family: Helvetica;	
+	color: white;
+	padding: 5px;
+	margin-bottom: 10%;
+	box-shadow: none;
+	margin-left: 11%;
+
+}
+/*
+a{
+	text-decoration: none!important;
+	color:black;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: gray;
+	padding: 7px;
+	border-radius: 5px 5px 0px 0px;
+	transition: .3s linear;
+}
+
+a:hover{
+ padding: 9px;
+ background-color: black;
+ border-radius: 3px;
+ color: white;
+}
+*/
+footer{
+	bottom: 0px;
+	
+}
+
+#wrapper {
+	background-color: white;
+	border:  1px solid black;
+
+
+}
+#content {
+  float: left;
+  width: 800px;
+  background-color: #CCF;
+
+}
+#sidebar {
+  float: left; 
+  width: 31%;
+  height: 50%;
+  background-color: black;
+}
+#cleared {
+  clear: both;
+
+
+}
+
+#aditec1{
+		
+}
+
+#sidebar img{
+	width: 200px;
+}
+
+.imgsrv{
+	width: 25% ;
+	position: relative;
+	border-radius: 50%;
+}
+
+
+span img {
+	border:1px solid white;
+	width: 10%;
+	margin: 0px;
+	position: relative;
+		
+}
+
+#vales{
+	width: 50%;
+	height: 50%;
+	border-radius: 5px;
+
+}
+
+#servicios p{
+	margin-top: 0%;		
+	width: 8%;
+	height: 8%;
+	display: inline;	
+	background-color: darkgray;
+}
+
+header{
+	
+	z-index: 99;
+}
+
+#servicios{
+	background-color: green;
+	position: relative;
+}
+
+#servicios img{
+	display: inline-block;
+}
+
+.ser{
+	position: relative;
+	display: block;
+
+}
+
+
+.parte{
+	display: block;
+	position: relative;
+	color: black;
+	background-color: white;
+	margin-top: 0%;
+}
+.xd h2{
+	
+}
+
+.mapouter{position:relative;text-align:right; float: center;}
+.gmap_canvas {overflow:hidden;background:none!important;height: 21em;width: 47%;}
+
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+	background-color: darkgray;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 65%;
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+#nosotros{
+	background-color: green;
+	color: black;	
+	width: 100%;
+	display: block;
+	float: left;
+
+}
+
+#xd{
+	width: 50%;
+	float: left;
+	text-align: justify;
+	padding: 0px 10px 10px 10px;	
+	font-size: 19px;
+	font-family: Helvetica;
+	display: inline;
+}
+
+#xd p{
+ 	
+ 	padding: .5em;
+ 	background-color: #da2d2d;
+ 	/*box-shadow: inset 1px 0px 5px 0px rgba(0,0,0,0.75);*/
+ 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ 	margin-top: 0px;
+}
+
+figcaption{
+	color: white;
+	display: ;
+}
+
+h2{
+	font-family: Georgia;
+	text-align: center;
+	background-color: green;
+	
+	background-size: contain;
+	color: black;	
+	border-bottom: 2px solid red;
+	margin-top: 0.5%;
+	margin-bottom: 0%;
+	-webkit-box-shadow: inset -1px -9px 30px 0px rgba(48, 50, 50, 0.93);
+	-moz-box-shadow:    inset -1px -9px 30px 0px rgba(48, 50, 50, 0.93);
+	box-shadow:         inset -1px -9px 30px 0px rgba(48, 50, 50, 0.93);
+
+}
+
+h2 span{
+	
+	font-weight: bold;
+	
+}
+
+.caption {
+    
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;        
+}
+
+figure.item {
+    
+    vertical-align: top;
+    display: inline-block;    
+    text-align: center;    
+    width: 16%;
+    padding: 1%;
+    margin-left: 3%;
+    min-height: 10%;    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #da2d2d;
+
+}
